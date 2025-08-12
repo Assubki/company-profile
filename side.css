@@ -1,0 +1,245 @@
+/* RESET ALL MARGINS AND PADDINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL STYLING */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR STYLE */
+nav.navbar {
+    background-color: #010418;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+nav.navbar img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+nav.navbar .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+nav.navbar .bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 2px;
+}
+
+nav.navbar ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav.navbar li {
+    margin-right: 10px;
+}
+
+nav.navbar li:last-child {
+    margin-right: 0;
+}
+
+nav.navbar li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #2596be;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav.navbar li a:hover {
+    background-color: #ffffff;
+}
+
+nav.navbar ul.topnav {
+    display: flex;
+}
+
+nav.navbar ul.topnav.show {
+    display: block; /* Menampilkan menu saat tombol hamburger diklik */
+}
+
+nav.navbar .hamburger {
+    display: block;
+}
+
+@media (min-width: 900px) {
+    nav.navbar .hamburger {
+        display: none; /* Menyembunyikan hamburger di layar lebar */
+    }
+}
+
+/* TENTANG KAMI SECTION */
+.about-us {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #010418;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: justify;
+    line-height: 1.6;
+    
+}
+
+/* SERVICE SECTION */
+.services {
+    padding: 50px 0;
+    background-color: #010418;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    margin-bottom: 50px;
+    background-color: #020a24;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1.1em;
+    font-weight: lighter;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.service-card a {
+    color: #2596be;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.service-card a:hover {
+    color: #1e80b6;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* TEAM SECTION */
+.team {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.team .section-title{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 60px;
+    color: #010418;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 30%;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 1.8em;
+    color: #010418;
+}
+
+.team-member p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.team-member p:last-child {
+    font-size: 1rem;
+    color: #202020;
+}
+
+@media (max-width: 900px) {
+    .service-card {
+        width: 90%; /* Lebih besar di perangkat kecil */
+    }
+
+    .team-member {
+        width: 90%;
+    }
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+/* SERVICE DETAILS */
+.service-details {
+    background: #0a0a18;
+    border: 1.5px solid #02112b;
+    padding: 32px 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.service-details .section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: rgb(255, 255, 255);
+}

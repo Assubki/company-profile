@@ -1,0 +1,154 @@
+/* RESET ALL MARGINS AND PADDINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL STYLING */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR STYLE */
+nav.navbar {
+    background-color: #010418;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+nav.navbar img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+nav.navbar .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+nav.navbar .bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 2px;
+}
+
+nav.navbar ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav.navbar li {
+    margin-right: 10px;
+}
+
+nav.navbar li:last-child {
+    margin-right: 0;
+}
+
+nav.navbar li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #2596be;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav.navbar li a:hover {
+    background-color: #ffffff;
+}
+
+/* KONTAK SECTION */
+.contact-section {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #010418;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #2596be;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #1e80b6;
+}
+
+/* Feedback Message */
+.form-feedback {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: green;
+}
+
+.form-feedback.error {
+    color: red;
+}

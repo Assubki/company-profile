@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile - Tentang, Layanan, dan Tim</title>
+    <link rel="stylesheet" href="side.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <img src="assets/Logo.png" alt="Logo Perusahaan">
+            </div>
+            <button class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+            <ul class="topnav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">Tentang</a></li> <!-- Ganti href dengan #about -->
+                <li><a href="#services">Layanan</a></li> <!-- Ganti href dengan #services -->
+                <li><a href="#team">Tim</a></li> <!-- Ganti href dengan #team -->
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- TENTANG KAMI -->
+    <section id="about" class="about-us">
+        <h2 class="section-title">Tentang Kami</h2>
+        <p>Perusahaan kami didirikan dengan tujuan untuk menjawab tantangan besar dalam dunia kecerdasan buatan (AI) yang semakin berkembang pesat. Kami berfokus pada pengembangan solusi keamanan yang inovatif untuk memastikan bahwa teknologi AI digunakan secara aman, etis, dan transparan. Dalam perjalanan kami, kami menyadari bahwa salah satu tantangan terbesar yang dihadapi oleh industri AI adalah masalah integritas dan transparansi data. Oleh karena itu, kami mengadopsi teknologi blockchain sebagai tulang punggung untuk solusi keamanan kami.
+
+            Blockchain tidak hanya memberikan transparansi dan keamanan yang tak terbantahkan, tetapi juga membentuk dasar yang memungkinkan sistem AI untuk beroperasi dengan lebih terkontrol dan dapat diaudit. Kami percaya bahwa dengan mengintegrasikan blockchain dalam sistem AI, kami dapat memastikan bahwa setiap transaksi, keputusan, dan data yang dihasilkan oleh AI tercatat dengan aman dan tidak dapat diubah. Dengan cara ini, kami dapat memitigasi risiko penyalahgunaan dan memastikan bahwa teknologi ini dapat dipercaya oleh penggunanya.
+
+            Selain itu, kami sangat menekankan pentingnya etika dalam pengembangan dan penerapan AI. Dalam setiap solusi yang kami ciptakan, kami selalu memastikan bahwa teknologi AI yang digunakan tidak hanya berfungsi dengan baik tetapi juga mematuhi standar etika yang tinggi. Kami berkomitmen untuk menjunjung tinggi prinsip-prinsip keberlanjutan, keadilan, dan privasi dalam setiap proyek yang kami jalankan. Dengan audit berbasis blockchain, kami bisa memastikan bahwa semua aktivitas AI yang kami kelola tetap berada di jalur yang benar dan tidak melenceng dari nilai-nilai etika yang kami anut.
+
+            Tim kami terdiri dari individu-individu yang sangat berpengalaman dan ahli di bidangnya, mulai dari pengembang blockchain, ahli kecerdasan buatan, hingga profesional keamanan siber. Kami percaya bahwa kombinasi keahlian dari berbagai disiplin ilmu ini adalah kunci untuk menciptakan solusi yang tidak hanya canggih tetapi juga aman dan etis. Kami bekerja dengan passion dan dedikasi untuk menciptakan masa depan digital yang lebih baik, di mana teknologi AI dapat digunakan untuk meningkatkan kehidupan manusia tanpa mengorbankan privasi atau keamanan.
+
+            Dengan visi yang jelas untuk menciptakan sistem yang lebih aman dan transparan, kami berkomitmen untuk terus berinovasi dan memimpin dalam pengembangan solusi keamanan untuk AI berbasis blockchain. Kami percaya bahwa keamanan adalah pondasi utama bagi keberhasilan teknologi masa depan, dan kami siap untuk memainkan peran penting dalam memastikan bahwa kecerdasan buatan dapat beroperasi dengan aman dan bermanfaat bagi semua.</p>
+    </section>
+
+    <!-- LAYANAN UTAMA -->
+    <section id="services" class="services card">
+        <h2 class="section-title"><span class="iconify" data-icon="mdi:rocket-launch"></span> Layanan Utama</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Keamanan AI</h3>
+                <p>Solusi untuk mengamankan AI dengan enkripsi dan audit berbasis blockchain.</p>
+                <a href="#penjelasan-keamanan">Pelajari Lebih Lanjut →</a>
+            </div>
+            <div class="service-card">
+                <h3>Integrasi Blockchain</h3>
+                <p>Menjamin keamanan data dan transaksi dengan sistem blockchain yang transparan.</p>
+                <a href="#penjelasan-blockchain">Pelajari Lebih Lanjut →</a>
+            </div>
+            <div class="service-card">
+                <h3>Etika AI</h3>
+                <p>Memastikan penggunaan AI yang beretika dengan pengawasan dan audit berbasis blockchain.</p>
+                <a href="#penjelasan-etika">Pelajari Lebih Lanjut →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIM KAMI -->
+    <section id="team" class="team">
+        <h2 class="section-title">Tim Kami</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="assets/CEO.png" alt="Tim 1" class="team-img">
+                <h3>John Doe</h3>
+                <p>CEO & Founder</p>
+                <p>John adalah pemimpin yang berpengalaman di dunia teknologi dan keamanan siber. Dengan visi yang jelas, dia memimpin perusahaan untuk menciptakan solusi canggih yang aman dan etis untuk kecerdasan buatan.</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/CTO.png" alt="Tim 2" class="team-img">
+                <h3>Jane Smith</h3>
+                <p>CTO</p>
+                <p>Jane adalah seorang ahli blockchain yang telah bekerja dengan berbagai perusahaan untuk membangun sistem keamanan digital yang tangguh. Di perusahaan kami, dia memimpin tim teknologi untuk mengembangkan solusi berbasis blockchain.</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/Lead AI.png" alt="Tim 3" class="team-img">
+                <h3>Mary Johnson</h3>
+                <p>Lead AI Researcher</p>
+                <p>Mary memiliki pengalaman luas dalam pengembangan dan penelitian AI. Fokus utamanya adalah memastikan bahwa semua sistem AI yang dikembangkan oleh perusahaan kami beroperasi dengan aman dan etis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PENJELASAN LAYANAN UTAMA -->
+    <section id="penjelasan-keamanan" class="service-details">
+        <h2 class="section-title">Mengenal Lebih Lanjut Tentang Keamanan AI</h2>
+        <p>Dengan semakin berkembangnya teknologi AI, keamanan menjadi hal yang sangat penting. Kami menyediakan solusi berbasis blockchain untuk melindungi data dan transaksi yang dilakukan oleh AI, menjamin integritas dan transparansi dalam setiap langkahnya.</p>
+    </section>
+
+    <section id="penjelasan-blockchain" class="service-details">
+        <h2 class="section-title">Mengenal Lebih Lanjut Tentang Integrasi Blockchain</h2>
+        <p>Blockchain memberikan transparansi dan keamanan data yang tak terbantahkan. Kami mengintegrasikan blockchain untuk memastikan bahwa setiap transaksi yang dilakukan oleh AI tercatat dengan aman dan tidak dapat diubah, memberikan lapisan perlindungan tambahan.</p>
+    </section>
+
+    <section id="penjelasan-etika" class="service-details">
+        <h2 class="section-title">Mengenal Lebih Lanjut Tentang Etika AI</h2>
+        <p>Pentingnya memastikan bahwa AI digunakan secara etis tidak dapat diabaikan. Dengan audit berbasis blockchain, kami memastikan bahwa penggunaan AI selalu sesuai dengan standar etika yang berlaku, mencegah penyalahgunaan dan penyimpangan dari kode etik.</p>
+    </section>
+
+</body>
+</html>
