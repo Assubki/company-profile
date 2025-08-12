@@ -54,10 +54,9 @@ side.html: Contains "About", "Services", and "Team" sections.
 contact.html: The contact page with a form.
 
 Demo
-You can view a live demo of the website here (if deployed on a hosting platform like GitHub Pages, Netlify, or Vercel).
+You can view a live demo of the website here: https://assubki.github.io/company-profile/
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Author
-Your Name: Your GitHub Profile
+Author: Assubki
